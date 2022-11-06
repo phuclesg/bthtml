@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header
+{
+	height: 100px;
+	background-color: #09f;
+}
+#nav ul
+{
+	list-style: none;
+}
+#nav ul li
+{
+	float: left;
+}
+#nav ul li a
+{
+	padding: 0 15px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+#nav
+{
+	
+	height: 50px;
+}
+.nav-1
+{
+	background-color: #09f;
+}
+.nav-2
+{
+	background-color: #FF7E00;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.section-1, .section-2, .section-3 ,.section-4, .section-5
+{
+	height: 350px;
+	background-color: #09f;
+	margin: 15px auto;
+}

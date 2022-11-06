@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="CSS/skdslider.css">
+</head>
+
+<body>
+	<div id="demo1">
+      <div class="slide">
+        <img src="images/Slider_1.png" />
+        <!--Slider Description example-->
+         
+     </div>
+    <div class="slide">
+       <img src="images/Slider_2.png" />
+       
+   </div>
+   <div class="slide">
+      <img src="images/Slider_3.png" />
+      <!--NO Description Here-->
+   </div>
+   <div class="slide">
+     <img src="images/Slider_4.png" />
+     
+  </div> 
+</div>
+	<script src="JS/jquery-3.6.0.min.js"></script>
+	<script src="JS/skdslider.min.js"></script>
+	<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#demo1').skdslider({
+          slideSelector: '.slide',
+          delay:5000,
+          animationSpeed:2000,
+          showNextPrev:true,
+          showPlayButton:true,
+          autoSlide:true,
+          animationType:'fading'
+        });
+
+        jQuery('#demo2').skdslider({
+          slideSelector: '.slide',
+          delay:5000, 
+          animationSpeed: 1000,
+          showNextPrev:true,
+          showPlayButton:false,
+          autoSlide:true,
+          animationType:'sliding'
+        });
+    });
+</script>
+</body>
+</html>
